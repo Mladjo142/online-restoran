@@ -185,9 +185,9 @@
  <div style="overflow:auto; height:500px; font-size: 20px;"> 
 <?php
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022";
 
 // Kreiranje konekcije
 $konekcija = new mysqli($imeServera, $username, $lozinka, $imeBaze);
