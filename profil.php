@@ -185,9 +185,9 @@
 <?php
  
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
@@ -228,9 +228,9 @@ $konekcija->close();
 <?php
  
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
@@ -273,9 +273,10 @@ $konekcija->close();
 <?php
  
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022
+";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
@@ -317,9 +318,10 @@ $konekcija->close();
 <?php
  
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022
+";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
