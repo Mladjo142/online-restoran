@@ -11,10 +11,10 @@
 ?>
 
  <?php
-$imeServera = "localhost";
-$username = "root";
+$imeServera = "pzi112022";
+$username = "csdigital2022";
 $lozinka = "";
-$imeBaze = "bazaprojekt";
+$imeBaze = "pzi112022";
 $id = $_GET["id"];
 
 // Stvaranje konekcije
