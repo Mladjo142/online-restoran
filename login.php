@@ -2,9 +2,9 @@
 <body>
 <?php
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022";
 $KorisnickoIme=$_GET["email1"];
 $Lozinka=$_GET["lozinka1"];
 
