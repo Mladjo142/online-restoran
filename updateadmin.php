@@ -11,9 +11,9 @@
 	}
 
 $imeServera = "localhost";
-$username = "root";
-$lozinka = "";
-$imeBaze = "bazaprojekt";
+$username = "pzi112022";
+$lozinka = "csdigital2022";
+$imeBaze = "pzi112022";
 $Ime=$_GET["ime"];
 $Prezime=$_GET["prezime"];
 $BrTel=$_GET["brojtel"];
