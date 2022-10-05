@@ -275,8 +275,7 @@ $konekcija->close();
 $imeServera = "localhost";
 $username = "pzi112022";
 $lozinka = "csdigital2022";
-$imeBaze = "pzi112022
-";
+$imeBaze = "pzi112022";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
@@ -320,8 +319,7 @@ $konekcija->close();
 $imeServera = "localhost";
 $username = "pzi112022";
 $lozinka = "csdigital2022";
-$imeBaze = "pzi112022
-";
+$imeBaze = "pzi112022";
 
 $KorIme= $_SESSION['KorisnickoIme'];
 
