@@ -30,7 +30,7 @@ if (!$konekcija) {
 }
 
 
-$result = $konekcija -> query("UPDATE Musterija, Korisnik
+$result = $konekcija -> query("UPDATE musterija, korisnik
 				SET Ime ='$Ime', Prezime ='$Prezime', BrojTelefona ='$BrTel', Adresa ='$Adresa' 
 				WHERE Musterija.IDKorisnika=Korisnik.ID AND Korisnik.KorisnickoIme='$KorIme'");
 
