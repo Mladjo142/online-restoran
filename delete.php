@@ -12,7 +12,7 @@
 
  <?php
 $imeServera = "localhost";
-$username = pzi112022";
+$username = "pzi112022";
 $lozinka = "csdigital2022";
 $imeBaze = "pzi112022";
 $id = $_GET["id"];
