@@ -18,7 +18,7 @@ if (!$konekcija) {
 }
 
 
-$result = $konekcija -> query("SELECT * FROM Korisnik WHERE KorisnickoIme = '$KorisnickoIme' AND Lozinka = '$Lozinka'");
+$result = $konekcija -> query("SELECT * FROM korisnik WHERE KorisnickoIme = '$KorisnickoIme' AND Lozinka = '$Lozinka'");
 
 
 if(mysqli_num_rows($result)==1){
@@ -27,7 +27,7 @@ if(mysqli_num_rows($result)==1){
    	$_SESSION["KorisnickoIme"] = $KorisnickoIme;
 	
 
-	$musterija = $konekcija -> query("SELECT * FROM Korisnik WHERE KorisnickoIme = '$KorisnickoIme' AND Lozinka = '$Lozinka' AND Uloga='Musterija'");
+	$musterija = $konekcija -> query("SELECT * FROM korisnik WHERE KorisnickoIme = '$KorisnickoIme' AND Lozinka = '$Lozinka' AND Uloga='Musterija'");
 	if(mysqli_num_rows($musterija)==1){
 	$_SESSION["uloga"] = 'Musterija';
 	echo "<script> window.location.assign('indexkorisnik.php'); </script>";
