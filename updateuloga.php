@@ -31,7 +31,7 @@ if (!$konekcija) {
 }
 
 
-$result = $konekcija -> query("UPDATE Korisnik
+$result = $konekcija -> query("UPDATE korisnik
 				SET Uloga ='$Uloga' 
 				WHERE ID='$ID'");
 
