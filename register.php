@@ -18,7 +18,7 @@ if (!$konekcija) {
   die("Konekcija neuspjela: " . mysqli_connect_error());
 }
 
-$result = $konekcija -> query("SELECT * FROM korisnik WHERE KorisnickoIme = '$KorisnickoIme'");
+$result = $konekcija -> query("SELECT * FROM Korisnik WHERE KorisnickoIme = '$KorisnickoIme'");
 
 if(mysqli_num_rows($result)!=1){
 	if($Lozinka==$Lozinka2){
