@@ -11,9 +11,9 @@
 ?>
 
  <?php
-$imeServera = "pzi112022";
-$username = "csdigital2022";
-$lozinka = "";
+$imeServera = "localhost";
+$username = pzi112022";
+$lozinka = "csdigital2022";
 $imeBaze = "pzi112022";
 $id = $_GET["id"];
 
