@@ -18,7 +18,7 @@ if (!$konekcija) {
   die("Konekcija neuspjela: " . mysqli_connect_error());
 }
 
-$result = $konekcija -> query("SELECT * FROM Korisnik WHERE KorisnickoIme = '$KorisnickoIme'");
+$result = $konekcija -> query("SELECT * FROM korisnik WHERE KorisnickoIme = '$KorisnickoIme'");
 
 if(mysqli_num_rows($result)!=1){
 	if($Lozinka==$Lozinka2){
@@ -30,8 +30,8 @@ if(mysqli_num_rows($result)!=1){
 		
 		if ($konekcija->query($sql) === TRUE) {
   			echo "<h1 style='text-align:center;'>Registracija uspješna!</h1>";
-			$redak = "INSERT INTO Musterija (IDKorisnika) 
-			SELECT ID FROM Korisnik WHERE KorisnickoIme='$KorisnickoIme';";
+			$redak = "INSERT INTO musterija (IDKorisnika) 
+			SELECT ID FROM korisnik WHERE KorisnickoIme='$KorisnickoIme';";
 			$konekcija->query($redak);
 
 			$uloga = $konekcija -> query("UPDATE Korisnik
