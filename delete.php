@@ -25,7 +25,7 @@ if ($konekcija->connect_error) {
 }
 
 // Brisanje podataka sa zadanim ID-em
-$sql = "DELETE FROM Korisnik WHERE id=$id";
+$sql = "DELETE FROM korisnik WHERE id=$id";
 
 if ($konekcija->query($sql) === TRUE) {
   echo "<script> window.location.assign('uprkor.php'); </script>";
